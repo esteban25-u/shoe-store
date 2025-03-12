@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .container {
+            display: flex;
+            width: 100%;
+            max-width: 1200px;
+            justify-content: space-around;
+        }
+        .screen {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+        .screen img {
+            max-width: 100%;
+            height: auto;
+        }
+        .screen h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .screen button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #ff6f61;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 16px;
+            margin-top: 20px;
+            cursor: pointer;
+        }
+        .screen .profile {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .screen .profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .screen .options {
+            list-style: none;
+            padding: 0;
+        }
+        .screen .options li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .screen .options li:last-child {
+            border-bottom: none;
+        }
+        .screen .product-list {
+            list-style: none;
+            padding: 0;
+        }
+        .screen .product-list li {
+            display: flex;
+            align-items: center;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .screen .product-list li:last-child {
+            border-bottom: none;
+        }
+        .screen .product-list img {
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Screen 1 -->
+        <div class="screen">
+            <img src="https://via.placeholder.com/150" alt="Shoe Store Logo">
+            <h2>Shoe Store</h2>
+            <button>Entrar</button>
+        </div>
+
+        <!-- Screen 2 -->
+        <div class="screen">
+            <div class="profile">
+                <img src="https://via.placeholder.com/50" alt="Profile Picture">
+                <h3>John Doe</h3>
+            </div>
+            <ul class="options">
+                <li>Opciones</li>
+                <li>log out</li>
+            </ul>
+            <ul class="product-list">
+                <li>
+                    <img src="https://via.placeholder.com/50" alt="Shoe 1">
+                    Royal County Of Berkshire Polo Club Tenis Lifestyle Blanco-Gris-Verde
+                    <span>$79.900</span>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/50" alt="Shoe 2">
+                    Royal County Of Berkshire Polo Club Tenis Lifestyle Blanco-Gris-Gris
+                    <span>$79.900</span>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/50" alt="Shoe 3">
+                    Royal County Of Berkshire Polo Club Tenis Lifestyle Blanco-Gris-Gris
+                    <span>$79.900</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Screen 3 -->
+        <div class="screen">
+            <ul class="product-list">
+                <li>
+                    <img src="https://via.placeholder.com/50" alt="Shoe 1">
+                    Royal County Of Berkshire Polo Club Tenis Lifestyle Blanco-Gris-Verde
+                    <span>$79.900</span>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/50" alt="Shoe 2">
+                    Royal County Of Berkshire Polo Club Tenis Lifestyle Blanco-Gris-Gris
+                    <span>$79.900</span>
+                </li>
+                <li>
+                    <img src="https://via.placeholder.com/50" alt="Shoe 3">
+                    Royal County Of Berkshire Polo Club Tenis Lifestyle Blanco-Gris-Gris
+                    <span>$79.900</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Store</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #fce8d5, #dff6fb);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            text-align: center;
+        }
+        .logo img {
+            width: 100px;
+        }
+        .btn {
+            background-color: #ffb6a3;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+            background: #fcf4e4;
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+        .content {
+            padding: 60px 20px;
+        }
+        .sidebar {
+            background: #fce8d5;
+            width: 200px;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            padding: 20px;
+            display: none;
+        }
+        .products img {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="shoe_icon.png" alt="Logo">
+        </div>
+        <h1>Shoe Store</h1>
+        <button class="btn">Entrar</button>
+    </div>
+</body>
+</html>
